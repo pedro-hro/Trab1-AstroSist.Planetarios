@@ -59,7 +59,7 @@ MecanicaCeleste/
     ```bash
     julia main.jl
     ```
-4.  Os resultados serão impressos no console e também salvos no arquivo `output.txt`.
+4.  Os resultados serão salvos no arquivo `output.txt`.
 
 ## Dependências
 

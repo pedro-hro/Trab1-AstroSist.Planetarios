@@ -1,1 +1,11 @@
 output.txt
+# Ignore the output folder
+output/
+# Ignore the latex auxiliary files
+*.tex
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz

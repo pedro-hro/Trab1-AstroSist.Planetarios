@@ -1,14 +1,11 @@
 include("src/MecanicaCeleste.jl")
-using .MecanicaCeleste: resolver_questoes
 
-# Executar todas as questões
+using .MecanicaCeleste
+using Plots
+
+# Função para gerar os dados em LaTeX
 function main()
-    open("output.txt", "w") do file
-        redirect_stdout(file) do
-            resolver_questoes()
-        end
-    end
-    println("Output salvo em 'output.txt'")
+	generate_latex_data()
 end
 
 main()

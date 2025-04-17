@@ -27,15 +27,6 @@ O programa calcula e apresenta os seguintes resultados para a data especificada:
 9.  **Verificação do Baricentro:** Determina se o baricentro calculado está dentro ou fora do volume do Sol.
 10. **Aspectos Planetários:** Verifica se os outros planetas estão em conjunção, oposição ou quadratura em relação à Terra, com base na diferença de longitude eclíptica, e calcula a distância Terra-Planeta.
 
-## Metodologia
-
-- Os elementos orbitais de base e suas taxas de variação são baseados em dados para a época J2000.0.
-- Os elementos instantâneos são calculados linearmente a partir dos valores base e das taxas.
-- A Anomalia Excêntrica é resolvida usando o método iterativo de Newton-Raphson.
-- As transformações de coordenadas seguem as fórmulas padrão da mecânica celeste.
-
-## Estrutura do Projeto
-
 ## Estrutura do Projeto
 
 O código está organizado de forma modular em Julia:

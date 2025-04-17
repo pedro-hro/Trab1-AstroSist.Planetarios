@@ -63,18 +63,13 @@ MecanicaCeleste/
 1. **Clonar o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/MecanicaCeleste.git
+   git clone https://github.com/pedro-hro/Trab1-AstroSist.Planetarios
    ```
 
 2. **Instalar dependências**:
 
    - Julia (v1.8 ou superior):
-
-     ```bash
-     # Em sistemas Debian/Ubuntu
-     sudo apt install julia
-     ```
-
+     - [Download Julia](https://julialang.org/downloads/)
    - Pacotes Julia necessários:
 
      ```julia
@@ -83,9 +78,7 @@ MecanicaCeleste/
      ```
 
    - LaTeX (para compilar o relatório):
-     ```bash
-     sudo apt install texlive-full
-     ```
+     - [TeX Live](https://www.tug.org/texlive/) ou [MiKTeX](https://miktex.org/download)
 
 ---
 
@@ -111,6 +104,12 @@ MecanicaCeleste/
    ```bash
    pdflatex complete_report.tex
    ```
+
+---
+
+## 📜 Licença
+
+Distribuído sob [Licença MIT](LICENSE). Permite uso acadêmico e modificações com atribuição.
 
 ---
 

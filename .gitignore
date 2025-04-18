@@ -9,3 +9,5 @@ output/
 *.fdb_latexmk
 *.fls
 *.synctex.gz
+# Ignore the PDF files
+*.pdf

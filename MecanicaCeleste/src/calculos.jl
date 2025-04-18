@@ -115,8 +115,8 @@ Saída: tupla (longitude, latitude) em graus
 """
 function coordenadasEclipticas(planeta::Planeta, t)
 	x, y, z = coordenadas(planeta, t)
-	l = atan(y, x) * (180/π)
-	b = atan(z, sqrt(x^2 + y^2)) * (180/π)
+	l = atan(y/x) * (180 / π)
+	b = atan(z/sqrt(x^2 + y^2)) * (180 / π)
 
 	l = mod(l, 360)
 	return (l, b)
